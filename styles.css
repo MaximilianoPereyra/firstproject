@@ -15,14 +15,21 @@
     max-width: 1300px;
 }
 
+.background {
+    background:url(hero-bg.png);
+    width: 100%;
+    height: 900px;
+    position: absolute;
+    top: -10%;
+}
 
 .header {
     width: 100%;
     padding: 10px;
     color: white;
-    background:url(hero-bg.png);
     height: 800px;
-    top: -80%;
+    margin-top: 10px;
+    
     
     
     /*Flex*/
@@ -59,8 +66,13 @@
     background-color: blue;
     padding: 7px;
     border-radius: 50px;
-    margin-left: 10px;
+    margin-left: 20px;
     color: white;
+}
+
+.try{
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .section1 {
@@ -73,9 +85,10 @@
 }
 
 .img2 {
-    margin-right: 35px;
-    width: 250px;
-    height: 450px;
+    margin-right: 100px;
+    width: 300px;
+    height: 550px;
+    position: relative;
 }
 
 .conteiner__arrow {
@@ -502,7 +515,7 @@ flex-flow: column wrap;
 
 .btn9 {
     margin-top: 40px;
-    width: 30%;
+    width: 40%;
 }
 .blood2 {
     display: flex;
@@ -962,7 +975,21 @@ footer {
     flex-direction: row;
     justify-content: center;
 }
+.see {
+    margin-left: 15px;
+    margin-right: 15px;
+}
 
+.buss__1:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.buss__2:hover {
+
+    transform: scale(1.1);
+    transition: 1s;
+}
 
 .template p {
     color:rgba(190, 188, 188, 0.493);
