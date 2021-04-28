@@ -671,7 +671,7 @@ flex-flow: column wrap;
     height: 100%;
     margin-top: 5px;
     margin-bottom: 20px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.671);
+    box-shadow: 8px 8px 8px 4px rgba(90, 87, 87, 0.671);
 }
 
 .buss__2 {
@@ -685,7 +685,7 @@ flex-flow: column wrap;
     margin-top: 5px;
     margin-bottom: 20px;
     
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.671);
+    box-shadow: 8px 8px 8px 4px rgba(90, 87, 87, 0.671);
 
 }
 .section8 h5 {
@@ -935,7 +935,14 @@ footer {
 .social h2 {
     color: white;
     font-size: 25px;
+    margin-left: 15px;
+    margin-right: 15px;
 
+}
+
+.social a {
+    margin-left: 15px;
+    margin-right: 15px;
 }
 .homes a {
     text-decoration: none;
